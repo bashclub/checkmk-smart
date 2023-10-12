@@ -9,8 +9,8 @@ Server Side:
 
 Login per SSH to Check_MK Server
 su - sitename
-curl https://raw.githubusercontent.com/bashclub/checkmk-smart/main/disk_smart_info-0.6-2.mkp > disk_smart_info-0.6-2.mkp
-mkp install disk_smart_info-0.6-2.mkp
+curl https://raw.githubusercontent.com/bashclub/checkmk-smart/main/disk_smart_info-0.61.mkp> disk_smart_info-0.61.mkp
+mkp install disk_smart_info-0.61.mkp
 exit
 omd restart sitename
 
